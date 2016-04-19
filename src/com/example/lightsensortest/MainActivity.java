@@ -8,7 +8,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.widget.TextView;
-
+//这是一个关于传感器的测试
 public class MainActivity extends Activity {
 	private TextView light_text;
 	private SensorManager manager;
@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
 		}
 	};
-
+ 
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
